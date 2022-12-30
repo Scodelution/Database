@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[ContractPartner]
+(
+[ID] INT NOT NULL PRIMARY KEY,	
+[IsShipper] BIT NOT NULL,
+[Name] VARCHAR(50) NOT NULL,
+[Street] VARCHAR(50) NOT NULL,
+[StreetNumber] VARCHAR(50) NOT NULL,
+[PostalCode] VARCHAR(50) NOT NULL,
+[Location] VARCHAR(50) NOT NULL,
+[Country] VARCHAR(50) NOT NULL,
+)

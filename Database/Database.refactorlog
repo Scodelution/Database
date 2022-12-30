@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d2f71a10-a471-4535-9aa9-a9f4c1b945f1" ChangeDateTime="12/30/2022 14:44:43">
+    <Property Name="ElementName" Value="[dbo].[ContractPartner].[AssignmentID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContractPartner]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29a538f6-0d9e-4bae-a3ec-6371b170657e" ChangeDateTime="12/30/2022 14:50:24">
+    <Property Name="ElementName" Value="[dbo].[Assignments].[ShipperName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Assignments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ShipperID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4809d8e3-fb5e-4841-9863-c283e121b8af" ChangeDateTime="12/30/2022 14:51:30">
+    <Property Name="ElementName" Value="[dbo].[Assignments].[ReceiverName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Assignments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ReceiverID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2942ae2d-008a-4462-9aea-1a78408777d2" ChangeDateTime="12/30/2022 14:57:37">
+    <Property Name="ElementName" Value="[dbo].[Shipment].[Freight]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Shipment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FreightID" />
+  </Operation>
+</Operations>

@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Assignments]
 
 (
-	[AssignmentID] INT NOT NULL PRIMARY KEY,
+	[AssignmentID] INT NOT NULL PRIMARY KEY IDENTITY,
 	[ShipperID] INT NOT NULL,
 	[ReceiverID] INT NOT NULL,
 	[ShippingID] INT NOT NULL,
